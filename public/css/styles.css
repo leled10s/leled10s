@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+div img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+}
+
+body {
+    background: rgb(47, 10, 58);
+	overflow: hidden;
+}
+
+div {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+}
+
+div h1 {
+	color: rgb(154, 22, 194);
+	font-size: 10em;
+	z-index: 100;
+}
+
+div h1 span {
+	-webkit-text-stroke: 3px #fff;
+	color: transparent;
+}
+
+div p {
+	color: #fff;
+	font-size: 5em;
+	z-index: 100;
+}
+
+audio{
+    display: block;
+}
+
+audio:hover{
+    cursor: pointer;
+}
