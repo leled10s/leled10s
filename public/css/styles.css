@@ -53,3 +53,8 @@ audio{
 audio:hover{
     cursor: pointer;
 }
+
+#fireworksField{
+	width: 100%;
+	height: 100vh;
+}
